@@ -5,10 +5,10 @@ Web animatie
 
 ----------------------------
 
-Week01: Kunstwerk:
-https://designarchives.aiga.org/#/entries/%2Bcollections%3A%22Denver%20Art%20Museum%22/_/detail/relevance/asc/4976/7/1707/light-years-poster/1
+Kunstwerk:
+<img width="496" alt="Schermafbeelding 2020-05-23 om 1 47 47 PM" src="https://user-images.githubusercontent.com/43640566/82729928-26828100-9cfc-11ea-860e-5ddd3098cfde.png">
 
-De keuze op het kunstwerk: het leek me een interessante/uitdagende kunstwerk omdat het niet veel heeft in de vormgeving en dat wil ik actiever maken door de interacties. De lettertype en belichtingen vond ik een sterk combinatie omdat het bij elkaar past en ik kan er wel genoeg mee doen. Inhoudelijk gaat het over een bepaalde dag in New York die een bepaalde belichtende dag is.
+De keuze op het kunstwerk: het leek me een interessante/uitdagende kunstwerk omdat het niet veel heeft in de vormgeving en dat wil ik actiever maken door de interacties. De lettertype en belichtingen vond ik een sterk combinatie omdat het bij elkaar past en ik kan er wel genoeg mee doen. Inhoudelijk gaat het over dat twee lettertypes een sterk effect hebben met elkaar en het uiteindelijk een levendig gevoel geeft door de belichting.
 
 Interacties eindopdracht
 - Standaard: De letters gaan van boven naar onder en ook andersom EN/of alle kanten op.
@@ -17,9 +17,11 @@ Interacties eindopdracht
 - Functie darkmode dat de achtergrond ineens dark is.
 - Eventueel: op de letters klikken zodat die op de voorgrond blijven.
 
-Week 01: In deze week heb ik svg bestanden gemaakt om het kunstwerk te animeren. Ik heb deze svg bestanden geplaatst in de editor om deze daadwerkelijk te coderen. Achteraf kwam ik erachter dat het niet nodig was om helemaal een svg te maken en deze te coderen omdat ik temaken heb met tekst/typografie. Bij het gebruik van tekst/typografie kan ik gebruik maken van paragraph.
-Deze paragraph kan ik voor elk apart stylen door classes aan toe te voegen.
-  
+--------------------
+
+Week 01: In deze week heb ik svg bestanden gemaakt om het kunstwerk te animeren. Ik heb deze svg bestanden geplaatst in de editor om deze daadwerkelijk te coderen. Achteraf kwam ik erachter dat het niet nodig was om een svg te maken en deze te coderen omdat ik te maken heb met tekst/typografie. Ik vond het wel fijn om svg te leren kennen om deze daadwerkelijk te coderen, het is een ervaring. Bij het gebruik van tekst/typografie kan ik gebruik maken van paragraph tag.
+Deze paragraph kan ik voor de letters apart stylen door classes aan toe te voegen.
+
 De eerste week was ik dus gaan onderzoeken/experimenteren wat het beste is om het uiteindelijk te coderen.
 
 -----------------------------
@@ -28,6 +30,8 @@ Week02: In de eerste week heb ik bepaald hoe het uiterlijk van de animatie eruit
 
 Feedback Danny - 13 mei 2020
 De docent keek naar het werk en gaf daar feedback op.
+
+Mijn uitleg: 
 - Dit is het kunstwerk die de gebruiker als eerst zullen zien. De letters bewegen van boven naar beneden om de gebruiker een beetje te triggeren,
 - De gebruiker kan op de letters klikken met als gevolg kleur(verschillende kleuren).
 - Er is ook een darkmode aanwezig. Hierbij worden de dominante kleuren diapositief.
@@ -39,15 +43,17 @@ De docent keek naar het werk en gaf daar feedback op.
 
 <img width="973" alt="Schermafbeelding 2020-05-17 om 2 49 42 PM" src="https://user-images.githubusercontent.com/43640566/82147133-019a9380-984e-11ea-9f8c-c84e34a53eab.png">
 
-Voor een eerste blik was het prima. Hij vertelde erbij dat ik meer kon spelen met "mixed-blend-mode", "css-filters", "clip-path" voor de uitstraling van de kunstwerk. Daarbij gaf hij ook aan om de kunstwerk responsive te maken.
+Feedback docent: Voor een eerste blik was het prima. De docent vertelde erbij dat ik meer kon spelen met "mixed-blend-mode", "css-filters", "clip-path" voor de uitstraling van de kunstwerk. Daarbij gaf hij ook aan om de kunstwerk responsive te maken.
 
 ---------------------------------------------
 
-week03: Het kunstwerk afmaken. In deze week probeer ik de eisen die ik had gesteld te realiseren. Uiteindelijk heb ik meerdere herhalende interacties in het kunstwerk verwerkt om het wat leuker/actiever te maken. Zoals de buttons hieronder waarbij elk een ander kleur laat zien in de body. 
-
-<img width="1164" alt="Schermafbeelding 2020-05-20 om 12 03 20 PM" src="https://user-images.githubusercontent.com/43640566/82434130-b7562400-9a92-11ea-86a6-483f51c02505.png">
+week03: Het kunstwerk afmaken. In deze week probeer ik alle feedback van de docent te verwerken. Uiteindelijk heb ik meerdere herhalende interacties in het kunstwerk verwerkt om het wat leuker/actiever te maken. Zoals de buttons hieronder waarbij elk een ander kleur laat zien in de body. En daarnaast een leuke keyboard manier. 
+<img width="494" alt="Schermafbeelding 2020-05-23 om 1 38 28 PM" src="https://user-images.githubusercontent.com/43640566/82729943-3ef29b80-9cfc-11ea-80f7-ecfcd82bb6bd.png">
+<img width="494" alt="Schermafbeelding 2020-05-23 om 1 38 36 PM" src="https://user-images.githubusercontent.com/43640566/82729946-40bc5f00-9cfc-11ea-8d7b-b9a1df6d2431.png">
 
 -----------------
+Bronvermelding Readme:
+- Kunstwerk: AIGA Design Archives. (2020, 6 mei). Geraadpleegd op 6 mei 2020, van https://designarchives.aiga.org/#/entries/%2Bcollections%3A%22Denver%20Art%20Museum%22/_/detail/relevance/asc/4976/7/1707/light-years-poster/1
 
 Bronvermelding CSS:
 - Bewegende letters: Coyier, C. (2020, 30 april). Animation. Geraadpleegd op 18 mei 2020, van https://css-tricks.com/almanac/properties/a/animation/
