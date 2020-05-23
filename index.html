@@ -9,7 +9,7 @@
 
 </head>
 
-<body>
+<body class="body-transitie">
 
     <header>
 
@@ -18,7 +18,7 @@
     <main>
 
        <form class="form">
-      <label class="form-label">Write <span class="each">each 4-letter</span> <span class="keyboard-text">on your keyboard</span> and see what happened - <span class="each">Done</span> write each whole letter</label>
+      <label class="form-label">Write the <span class="each">first 4-letters</span> <span class="keyboard-text">on your keyboard</span> of each word and see what happened - Done write <span class="each">all letters </span>of each word</label>
       <input class="form-text" name="fname" type="text" />
     </form>
 
@@ -45,7 +45,10 @@
                     <span class="slider roundred"></span>
                 </label>
 
-                <li><button onclick="alleKleur()" class="">Alle kleuren</button></li>
+                <label class="switch">
+                    <input onclick="alleKleur()" type="checkbox" checked>
+                    <span class="slider roundall"></span>
+                </label>
             </ul>
 
         </nav>
@@ -97,6 +100,8 @@
         <div class="square"></div>
 
         <footer>
+           <!--bron alinea: AIGA Design Archives. (2020, 6 mei). Geraadpleegd op 6 mei 2020, van https://designarchives.aiga.org/#/entries/%2Bcollections%3A%22Denver%20Art%20Museum%22/_/detail/relevance/asc/4976/7/1707/light-years-poster/1 -->
+
             <p class="alinea">Light Years The Architectural League of New York’s 1999 Beaux Arts Ball at the Starrett-Lehigh Building, Saturday March 13, 1999. For tickets please call (212) 753 1722. Corporate Sponsor “Artemide”.</p>
 
         </footer>
