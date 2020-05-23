@@ -2,174 +2,15 @@
 
     body {
         font-family: 'din';
-        background-color: white;
+        background-color: black;
     }
 
-    /* Verbonden met js vanwege keyboard */
-    .up {
-        transition: all 5s ease;
-        text-shadow: 2px 2px 5px white;
-        fill: red;
-        animation: blur 2s ease, shadow 1s infinite ease-in-out, stretch 1s ease-in-out;
+    .body-transitie {
+        background-color: black;
+        transition: 2s all ease-in-out;
     }
 
-    /* Verbonden met js vanwege keyboard */
-    .down {
-        transition: all 5s ease;
-        text-shadow: 2px 2px 10px white;
-        animation: blur 2s, shadow 1s infinite, scale 2s, stretch 1s;
-        /* spin 5s ease;*/
-    }
-
-    @keyframes blur {
-        0% {
-            filter: blur(0px);
-        }
-
-        50% {
-            filter: blur(10px);
-        }
-
-        100% {
-            filter: blur(0px);
-        }
-    }
-
-    @keyframes shadow {
-        0% {
-            text-shadow: blue;
-        }
-
-        50% {
-            text-shadow: white;
-        }
-
-        100% {
-            text-shadow: red;
-        }
-    }
-
-    @keyframes stretch {
-        0% {
-            transform: scale(1, 1);
-        }
-
-        50% {
-            transform: scale(2, 2);
-        }
-
-        100% {
-            transform: scale(1, 1);
-        }
-    }
-
-    @keyframes spin {
-        0% {
-            transform: scale(0deg);
-        }
-
-        50% {
-            transform: scale(360deg);
-        }
-
-        100% {
-            transform: scale(0deg);
-        }
-    }
-
-    p {
-        font-family: 'helvetica';
-        margin: 0em;
-        margin-top: 1em;
-        padding: 0em;
-        color: #212121;
-        text-transform: uppercase;
-        font-weight: 900;
-        transition: all 0.5s;
-        animation-name: position 2s;
-    }
-
-    section {
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        margin: auto;
-        opacity: 100%;
-        margin-left: 2em;
-    }
-
-    section p:hover {
-        transition: 2s ease;
-        filter: drop-shadow(16px 16px 20px red) invert(75%);
-        clip-path: circle(50%);
-    }
-
-    .alinea {
-        text-transform: lowercase;
-        font-weight: 600;
-        position: absolute;
-        font-size: 1em;
-        text-align: left;
-        padding-left: 1em;
-        padding-right: 2em;
-        margin-top: 25em;
-        background-blend-mode: difference;
-    }
-
-    .alinea:hover {
-        cursor: pointer;
-        transition: all 4s ease;
-        color: white;
-        animation: color03 4s infinite;
-    }
-
-    @keyframes color03 {
-
-        0% {
-            color: white;
-        }
-
-        25% {
-            color: antiquewhite;
-        }
-
-        50% {
-            color: floralwhite;
-        }
-
-        75% {
-            color: beige;
-        }
-
-        100% {
-            color: black;
-        }
-    }
-
-    .keyboard-text {
-        position: absolute;
-        opacity: 0%;
-    }
-
-    .each {
-        animation: color-label 10s ease;
-    }
-
-    @keyframes color-label {
-        0% {
-            color: red;
-        }
-
-        50% {
-            color: red;
-        }
-
-        100% {
-            color: white;
-        }
-
-    }
-
+    /* Styling van de label */
     .form {
         display: flex;
         flex-direction: column;
@@ -177,7 +18,6 @@
         padding: 1em 2em 2em;
         margin: -1em -1em 1em;
         background-color: #161616;
-
     }
 
     .form-label {
@@ -209,26 +49,117 @@
         text-transform: uppercase;
     }
 
-    /*class voor js*/
-    .verloop {
-        animation: colorred 10s infinite;
+    /* tekst van de label */
+    .keyboard-text {
+        position: absolute;
+        opacity: 0%;
     }
 
-    @keyframes colorred {
+    /* styling van de tekst boven de label */
+    .each {
+        animation: color-label 10s ease;
+    }
+
+    @keyframes color-label {
+        0% {
+            color: red;
+        }
+
+        50% {
+            color: red;
+        }
+
+        100% {
+            color: white;
+        }
+    }
+
+    /*Styling van alle buttons*/
+    /*De "all color" button*/
+
+
+    /* alle kleur toggle */
+    .slider.roundall {
+        border-radius: 34px;
+        background-color: #2B2B2B;
+    }
+
+    .slider.roundall:before {
+        border-radius: 50%;
+        animation: pulse 3s infinite;
+    }
+
+    @keyframes pulse {
+        0% {
+            background-color: greenyellow;
+        }
+
+        20% {
+            background-color: aqua;
+        }
+
+        40% {
+            background-color: red;
+        }
+
+        60% {
+            background-color: yellow;
+        }
+
+        80% {
+            background-color: orangered;
+        }
+
+        100% {
+            background-color: darkseagreen;
+        }
+    }
+
+    .allekleur {
+        transition: transform 5s;
+        animation: alles 8s ease-in-out;
+    }
+
+    @keyframes alles {
+
         0% {
             background-color: black;
         }
 
-        25% {
-            background-color: orange;
+        10% {
+            background-color: skyblue;
+        }
+
+        20% {
+            background-color: aqua;
+        }
+
+        30% {
+            background-color: lightblue;
+        }
+
+        40% {
+            background-color: lightgreen;
         }
 
         50% {
-            background-color: red;
+            background-color: greenyellow;
         }
 
-        75% {
-            background-color: rosybrown;
+        60% {
+            background-color: yellow;
+        }
+
+        70% {
+            background-color: orange;
+        }
+
+        80% {
+            background-color: coral;
+        }
+
+        90% {
+            background-color: red;
         }
 
         100% {
@@ -236,6 +167,167 @@
         }
     }
 
+
+    /* Styling van alle buttons */
+    li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 1em;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 0em
+    }
+
+
+    .switch {
+        transition: all 5s;
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+    }
+
+    .slider {
+        transition: all 5s;
+        position: absolute;
+        cursor: pointer;
+        height: 30px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: black;
+        -webkit-transition: all 4s ease;
+        transition: all 5s;
+        border-radius: 60px;
+    }
+
+    .slider:before {
+        transition: all 5s;
+        position: absolute;
+        content: "";
+        height: 20px;
+        width: 20px;
+        left: 8px;
+        bottom: 6px;
+        background-color: white;
+        -webkit-transition: all 4s ease;
+        transition: all .4s;
+    }
+
+    input:checked + .slider {
+        transition: all 5s ease;
+        background-color: #2B2B2B;
+        filter: drop-shadow(0 0 0.1rem grey);
+        padding-left: 2em;
+    }
+
+    input:checked + .slider:before {
+        -webkit-transform: translateX(10px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+
+    /*Witte button, gelinkt met js voor de body */
+    .dark-mode {
+        background-color: white;
+        color: white;
+        transition: 5s all ease;
+        border-radius: 50px;
+    }
+
+    /* Witte button */
+    .slider.round {
+        border-radius: 34px;
+    }
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+
+    /* Groene button */
+    .slider.roundgreen {
+        border-radius: 34px;
+        background-color: black;
+    }
+
+    .slider.roundgreen:before {
+        border-radius: 50%;
+        background-color: greenyellow;
+    }
+
+    .green-verloop {
+        background-color: darkseagreen;
+        transition: 2s all ease-in-out
+    }
+
+    /* blauwe button */
+    .slider.roundblue {
+        transition: all 5s;
+        border-radius: 34px;
+        background-color: black;
+    }
+
+    .slider.roundblue:before {
+        border-radius: 50%;
+        background-color: deepskyblue;
+    }
+
+    .blue-verloop {
+        background-color: aqua;
+        transition: 2s all ease-in-out
+    }
+
+    /* rode button */
+    .slider.roundred {
+        border-radius: 34px;
+        background-color: black;
+    }
+
+    .slider.roundred:before {
+        border-radius: 50%;
+        background-color: orangered;
+    }
+
+    /* rode knop, class voor js*/
+    .verloop {
+        background-color: darkred;
+        transition: 2s all ease-in-out
+    }
+
+    p {
+        font-family: 'helvetica';
+        margin: 0em;
+        margin-top: 1em;
+        padding: 0em;
+        color: #212121;
+        text-transform: uppercase;
+        font-weight: 900;
+        transition: all 0.5s;
+        animation-name: position 2s;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        margin: auto;
+        opacity: 80%;
+        margin-left: 2em;
+    }
+
+    section p:hover {
+        transition: 2s ease;
+        filter: drop-shadow(16px 16px 20px red) invert(75%);
+        clip-path: circle(50%);
+    }
+
+    /* Styling van de hoofd-letters */
     article {
         font-size: 5em;
         animation: spin20em 2s ease;
@@ -251,397 +343,171 @@
             transform: rotate(0deg);
         }
     }
-}
 
-/*De "all color" button*/
-button {
-    border-color: grey;
-    padding: 0.7em 0.5em;
-    border-radius: 15px;
-    background-color: black;
-    color: grey;
-    animation: pulse 15s infinite;
-    transition: all 5s;
-}
-
-@keyframes pulse {
-    0% {
-        background-color: black;
+    .section-02 p {
+        position: relative;
+        padding-top: 1em;
+        color: #212121;
+        opacity: 80%;
+        padding-bottom: -10em;
     }
 
-    20% {
-        background-color: aqua;
+    .section-02:hover {
+        transition: 0.1s;
+        text-shadow: 2px 2px 5px grey;
+        cursor: pointer;
     }
 
-    40% {
-        background-color: lightgreen;
+    /*Elk letter maakt een ander beweging*/
+    .l-letter:hover,
+    .i-letter:hover,
+    .g-letter:hover,
+    .h-letter:hover,
+    .t-letter:hover {
+        text-shadow: 2px 2px 50px white;
+        opacity: 50%;
+        cursor: pointer;
     }
 
-    60% {
-        background-color: yellow;
+    /*Coyier, C. (2020, 30 april). Animation. Geraadpleegd op 18 mei 2020, van https://css-tricks.com/almanac/properties/a/animation/*/
+
+    .l-letter,
+    .g-letter,
+    .t-letter {
+        -webkit-animation: move 1s infinite alternate;
+        animation: move 1s infinite alternate;
     }
 
-    80% {
-        background-color: coral;
+    .e-letter,
+    .r-letter {
+        -webkit-animation: move 1.2s infinite alternate;
+        animation: move 0.8s infinite alternate;
     }
 
-    100% {
-        background-color: black;
-    }
-}
-
-button:hover {
-    background-color: white;
-    cursor: pointer;
-    color: black;
-    transition: all 0.2s;
-}
-
-.allekleur {
-    animation: alles 20s infinite;
-}
-
-@keyframes alles {
-    0% {
-        background-color: black;
+    .y-letter,
+    .a-letter,
+    .s-letter {
+        -webkit-animation: move 1.5s infinite alternate;
+        animation: move 0.5s infinite alternate;
     }
 
-    10% {
-        background-color: skyblue;
+    .i-letter,
+    .h-letter {
+        -webkit-animation: move 2.5s infinite alternate;
+        animation: move 1.5s infinite alternate;
     }
 
-    20% {
-        background-color: aqua;
+    @-webkit-keyframes move {
+        0% {
+            transform: translateY(0);
+        }
+
+        100% {
+            transform: translateY(-100px);
+        }
     }
 
-    30% {
-        background-color: lightblue;
+    @keyframes move {
+        0% {
+            transform: translateY(0);
+        }
+
+        100% {
+            transform: translateY(-100px);
+        }
     }
 
-    40% {
-        background-color: lightgreen;
+    /* Verbonden met js door keyboard */
+    .up,
+    .down {
+        transition: all 2s ease;
+        text-shadow: 2px 2px 10px white;
+        animation: blur 2s, rotate 2s, stretch 1s;
+        /* spin 5s ease;*/
     }
 
-    50% {
-        background-color: greenyellow;
+    @keyframes blur {
+        0% {
+            filter: blur(0px);
+        }
+
+        50% {
+            filter: blur(10px);
+        }
+
+        100% {
+            filter: blur(0px);
+        }
     }
 
-    60% {
-        background-color: yellow;
+      @keyframes rotate {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        50% {
+            transform: rotate(360deg);
+        }
+
+        100% {
+            transform: rotate(0deg);
+        }
     }
 
-    70% {
-        background-color: orange;
+    @keyframes stretch {
+        0% {
+            transform: scale(1, 1);
+        }
+
+        50% {
+            transform: scale(2, 2);
+        }
+
+        100% {
+            transform: scale(1, 1);
+        }
     }
 
-    80% {
-        background-color: coral;
-    }
-
-    90% {
-        background-color: red;
-    }
-
-    100% {
-        background-color: black;
-    }
-}
-
-.section-02 p {
-    position: relative;
-    padding-top: 1em;
-    color: #0F0F0F;
-    opacity: 100%;
-    padding-bottom: -10em;
-}
-
-.section-02:hover {
-    transition: 0.1s;
-    text-shadow: 2px 2px 5px grey;
-    cursor: pointer;
-}
-
-/*Elk letter maakt een ander beweging*/
-.l-letter:hover,
-.i-letter:hover,
-.g-letter:hover,
-.h-letter:hover,
-.t-letter:hover {
-    text-shadow: 2px 2px 50px white;
-    opacity: 50%;
-    cursor: pointer;
-}
-
-@keyframes blur02 {
-    0% {
-        filter: blur(5px);
-    }
-
-    50% {
-        filter: blur(10px);
-    }
-
-    100% {
-        filter: blur(5px);
-    }
-}
-
-/*Elk letter maakt een ander beweging*/
-.l-letter,
-.g-letter,
-.t-letter {
-    -webkit-animation: mover 1s infinite alternate;
-    animation: mover 1s infinite alternate;
-}
-
-/*Coyier, C. (2020, 30 april). Animation. Geraadpleegd op 18 mei 2020, van https://css-tricks.com/almanac/properties/a/animation/*/
-
-/*Elk letter maakt een ander beweging*/
-.e-letter,
-.r-letter {
-    -webkit-animation: mover 2.5s infinite alternate;
-    animation: mover 1.5s infinite alternate;
-}
-
-/*Elk letter maakt een ander beweging*/
-.y-letter,
-.a-letter,
-.s-letter {
-    -webkit-animation: mover 1.5s infinite alternate;
-    animation: mover 0.5s infinite alternate;
-}
-
-/*Elk letter maakt een ander beweging*/
-.i-letter,
-.h-letter {
-    -webkit-animation: mover 2.5s infinite alternate;
-    animation: mover 1.5s infinite alternate;
-}
-
-@-webkit-keyframes mover {
-    0% {
-        transform: translateY(0);
-    }
-
-    100% {
-        transform: translateY(-100px);
-    }
-}
-
-@keyframes mover {
-    0% {
-        transform: translateY(0);
-    }
-
-    100% {
-        transform: translateY(-100px);
-    }
-}
-
-
-/*gelinkt met js voor de body */
-.dark-mode {
-    background-color: white;
-    color: white;
-    transition: all 4s;
-    border-radius: 50px;
-}
-
-/*gelinkt met js voor de p */
-.dark-mode p {
-    color: grey;
-    opacity: 50%;
-    transition: 5s;
-}
-
-/*button darkmode - 4de button*/
-.darkmode-button {
-    padding: 1em 2em;
-    background-color: whitesmoke;
-    color: black;
-    border-radius: 50px;
-}
-
-li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 1em;
-}
-
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-left: 0em
-}
-
-.switch {
-    transition: all 5s;
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-}
-
-.slider {
-    transition: all 5s;
-    position: absolute;
-    cursor: pointer;
-    height: 30px;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: black;
-    -webkit-transition: all 4s ease;
-    transition: all 5s;
-    border-radius: 60px;
-}
-
-.slider:before {
-    transition: all 5s;
-    position: absolute;
-    content: "";
-    height: 20px;
-    width: 20px;
-    left: 8px;
-    bottom: 6px;
-    background-color: white;
-    -webkit-transition: all 4s ease;
-    transition: all .4s;
-}
-
-input:checked + .slider {
-    transition: all 5s ease;
-    background-color: #2B2B2B;
-    filter: drop-shadow(0 0 0.1rem grey);
-    padding-left: 2em;
-}
-
-input:checked + .slider:before {
-    -webkit-transform: translateX(10px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-}
-
-/* Witte button */
-.slider.round {
-    border-radius: 34px;
-}
-
-.slider.round:before {
-    border-radius: 50%;
-}
-
-/* Groene button */
-.slider.roundgreen {
-    border-radius: 34px;
-    background-color: black;
-}
-
-.slider.roundgreen:before {
-    border-radius: 50%;
-    background-color: greenyellow;
-}
-
-.green-verloop {
-    animation: greencolor 10s infinite;
-}
-
-@keyframes greencolor {
-    0% {
-        background-color: black;
-    }
-
-    25% {
-        background-color: green;
-    }
-
-    50% {
-        background-color: greenyellow;
+    .alinea {
+        text-transform: lowercase;
+        font-weight: 600;
+        position: absolute;
+        font-size: 1em;
+        text-align: left;
+        padding-left: 1em;
+        padding-right: 2em;
+        margin-top: 25em;
         background-blend-mode: difference;
     }
 
-    75% {
-        background-color: darkseagreen;
-        background-blend-mode: difference;
+    .alinea:hover {
+        cursor: pointer;
+        transition: all 4s ease;
+        color: white;
+        animation: color03 10s infinite;
     }
 
-    100% {
-        background-color: black;
-    }
-}
+    @keyframes color03 {
 
+        0% {
+            color: white;
+        }
 
-/* blauwe button */
-.slider.roundblue {
-    transition: all 5s;
-    border-radius: 34px;
-    background-color: black;
-}
+        25% {
+            color: darkseagreen;
+        }
 
-.slider.roundblue:before {
-    border-radius: 50%;
-    background-color: deepskyblue;
-    animation: knoprood 2s infinite;
-}
+        50% {
+            color: skyblue;
+        }
 
-.blue-verloop {
-    transition: all 5s ease-in-out;
-    animation: blauwcolor 10s infinite;
-}
+        75% {
+            color: palevioletred;
+        }
 
-.blue-verloop:after {
-    transition: all 4s;
-}
-
-@keyframes blauwcolor {
-    0% {
-        background-color: black;
-    }
-
-    25% {
-        background-color: aqua;
-    }
-
-    50% {
-        background-color: aquamarine;
-    }
-
-    75% {
-        background-color: azure;
-    }
-
-    100% {
-        background-color: black;
-    }
-}
-
-/* rode button */
-.slider.roundred {
-    border-radius: 34px;
-    background-color: black;
-}
-
-.slider.roundred:before {
-    border-radius: 50%;
-    background-color: orangered;
-    animation: knoprood 2s infinite;
-}
-
-@keyframe knoprood {
-
-    0% {
-        background-color: red;
-    }
-
-    50% {
-        background-color: yellow;
-    }
-
-    100% {
-        background-color: red;
+        100% {
+            color: white;
+        }
     }
 }
 
@@ -692,9 +558,8 @@ input:checked + .slider:before {
         color: white;
         text-align: center;
         font-family: 1em;
-        margin: 0em 10em;
+        margin: 0em 5em;
     }
-
 }
 
 @media screen and (min-width: 60em) {
@@ -783,7 +648,6 @@ input:checked + .slider:before {
         font-family: 1em;
         margin: 0em 20em;
     }
-
 }
 
 @media screen and (min-width: 80em) {
@@ -799,11 +663,16 @@ input:checked + .slider:before {
     }
 
     @keyframes spin {
-        from {
+        0% {
             transform: rotate(360deg);
         }
 
-        to {
+        50% {
+            transform: rotate(-150deg);
+        }
+
+
+        100% {
             transform: rotate(0deg);
         }
     }
@@ -949,7 +818,7 @@ input:checked + .slider:before {
         position: relative;
         opacity: 100%;
         padding: 0.2em 0.2em;
-        animation: background-color-text 5s ease;
+        animation: background-color-text 10s ease;
     }
 
     @keyframes background-color-text {
