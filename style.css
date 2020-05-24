@@ -6,7 +6,7 @@
     }
 
     .body-transitie {
-        background-color: red;
+        background-color: black;
         transition: 2s all ease-in-out;
     }
 
