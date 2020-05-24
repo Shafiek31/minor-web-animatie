@@ -1,0 +1,522 @@
+@media screen and (min-width: 30em) {
+
+    body {
+        font-family: helvetica;
+        background-color: black;
+    }
+
+    .vierkant {
+        color: aqua;
+        opacity: 20%;
+    }
+
+    p {
+        margin: 0em;
+        padding: 0em;
+        margin-top: 1em;
+        font-size: 8em;
+        color: #212121;
+        text-transform: uppercase;
+        font-weight: 900;
+        transition: 0.5s;
+        animation-name: position 2s;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        margin: auto;
+        opacity: 100%;
+        margin-left: 2em;
+    }
+
+    section p:hover {
+        text-shadow: 2px 2px 20px white;
+
+    }
+
+    .alinea {
+        text-transform:lowercase;
+        font-weight: 600;
+        position: absolute;
+        font-size: 1em;
+        text-align:left;
+        padding-left: 2em;
+        margin-top: 48em;
+    }
+
+    .verloop {
+        animation: color 10s infinite;
+    }
+
+    @keyframes color {
+        0% {background-color: black;}
+
+        50% {background-color: red;}
+
+        100% {background-color:black;}
+    }
+
+    .allekleur {
+        animation: alles 20s infinite;
+    }
+
+    @keyframes alles {
+        0% {background-color: black;}
+        10% {background-color: skyblue;}
+        20% {background-color: aqua;}
+        30% {background-color: lightblue;}
+        40% {background-color: lightgreen;}
+        50% {background-color: greenyellow;}
+        60% {background-color: yellow;}
+        70% {background-color: orange;}
+        80% {background-color: coral;}
+90% {background-color: red;}
+        100% {background-color:black;}
+    }
+    }
+
+
+    .section-02 p {
+        position: relative;
+        padding-top: 1em;
+        color: #0F0F0F;
+        opacity: 100%;
+        padding-bottom: -10em;
+    }
+
+    .section-02:hover {
+        transition: 0.2s;
+        text-shadow: 2px 2px 20px white;
+        cursor: pointer;
+    }
+
+    .l-letter:hover,
+    .i-letter:hover,
+    .g-letter:hover,
+    .h-letter:hover,
+    .t-letter:hover {
+        text-shadow: 2px 2px 50px white;
+        opacity: 50%;
+        cursor: pointer;
+    }
+
+    /*
+.g-letter:hover {
+    color: greenyellow;
+    text-shadow: 2px 2px 50px greenyellow;
+    opacity: 10%;
+}
+
+.h-letter:hover {
+    color: orange;
+    text-shadow: 2px 2px 50px orange;
+    opacity: 10%;
+}
+*/
+
+    .s-letter:hover {
+        transition: 0s;
+        cursor: pointer;
+    }
+
+    /*
+.t-letter:hover {
+    color: purple;
+    text-shadow: 2px 2px 50px purple;
+    opacity: 10%;
+}*/
+
+    .l-letter,
+    .g-letter,
+    .t-letter {
+        -webkit-animation: mover 1s infinite alternate;
+        animation: mover 1s infinite alternate;
+    }
+
+
+    .e-letter,
+    .r-letter {
+        -webkit-animation: mover 2.5s infinite alternate;
+        animation: mover 1.5s infinite alternate;
+    }
+
+    .y-letter,
+    .a-letter,
+    .s-letter {
+        -webkit-animation: mover 1.5s infinite alternate;
+        animation: mover 0.5s infinite alternate;
+    }
+
+    .i-letter,
+    .h-letter {
+        -webkit-animation: mover 2.5s infinite alternate;
+        animation: mover 1.5s infinite alternate;
+    }
+
+    .proef {
+        font-size: 3em;
+        color: white;
+        animation-name: jump;
+        animation: jump 3s linear both;
+    }
+
+    @-webkit-keyframes jump {
+        0% {
+            left: 0;
+            top: 0;
+        }
+
+        50% {
+            left: 100px;
+            top: -100px;
+        }
+
+        100% {
+            left: 200px;
+            top: 0;
+        }
+    }
+
+    @keyframes jump {
+        0% {
+            left: 0;
+            top: 0;
+        }
+
+        50% {
+            left: 100px;
+            top: -100px;
+        }
+
+        100% {
+            left: 200px;
+            top: 0;
+        }
+    }
+
+    .letter-vorm {
+        background-color: yellow;
+    }
+
+    .dark-mode {
+        background-color: white;
+        color: white;
+        transition: 5s;
+          border-radius: 50px;
+    }
+
+    .dark-mode p {
+        color: grey;
+        opacity: 50%;
+        transition: 5s;
+    }
+
+    .darkmode-button {
+        padding: 1em 2em;
+        background-color: whitesmoke;
+        color: black;
+        border-radius: 50px;
+    }
+
+    .darkmode-button:hover {
+        font-weight: bold;
+        background-color: grey;
+        color: white;
+        border-color: black;
+        transition: 2s;
+        cursor: pointer;
+    }
+
+    button {
+        border-color: #353535;
+        padding: 0.5em 1em;
+        border-radius: 15px;
+        background-color: black;
+        color: grey;
+        animation: pulse 15s infinite;
+        transition: 5s;
+    }
+
+    @keyframes pulse {
+        0% {background-color: black;}
+        20% {background-color: aqua;}
+        40% {background-color: lightgreen;}
+        60% {background-color: yellow;}
+        80% {background-color: coral;}
+        100% {background-color:black;}
+    }
+
+    button:hover {
+        background-color: white;
+        cursor: pointer;
+        color: black;
+        transition: 0.2s;
+    }
+
+    li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    @-webkit-keyframes mover {
+        0% {
+            transform: translateY(0);
+        }
+
+        100% {
+            transform: translateY(-100px);
+        }
+    }
+
+    @keyframes mover {
+        0% {
+            transform: translateY(0);
+        }
+
+        100% {
+            transform: translateY(-100px);
+        }
+    }
+
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+    }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: black;
+        -webkit-transition: .4s;
+        transition: 5s;
+          border-radius: 50px;
+    }
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    input:checked + .slider {
+        background-color: #2B2B2B;
+        filter: drop-shadow(0 0 0.4rem grey);
+    }
+
+    input:checked + .slider:before {
+        -webkit-transform: translateX(10px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+        border-radius: 34px;
+    }
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+}
+
+/* Rounded sliders */
+    .slider.roundgreen {
+        border-radius: 34px;
+        background-color: black;
+    }
+
+    .slider.roundgreen:before {
+        border-radius: 50%;
+        background-color: greenyellow;
+    }
+
+
+  .green-verloop {
+        animation: greencolor 10s infinite;
+    }
+
+    @keyframes greencolor {
+        0% {background-color: black;}
+
+        25% {background-color: green;}
+
+        50% {background-color: greenyellow;}
+
+        75% {background-color: darkseagreen;}
+
+        100% {background-color:black;}
+    }
+
+
+/* Rounded sliders */
+    .slider.roundblue {
+        border-radius: 34px;
+        background-color: black;
+    }
+
+    .slider.roundblue:before {
+        border-radius: 50%;
+        background-color: deepskyblue;
+        animation: knoprood 2s infinite;
+
+    }
+
+  .blue-verloop {
+        animation: blauwcolor 10s infinite;
+    }
+
+    @keyframes blauwcolor {
+        0% {background-color: black;}
+
+        25% {background-color: aqua;}
+
+        50% {background-color: aquamarine;}
+
+        75% {background-color: azure;}
+
+        100% {background-color:black;}
+    }
+
+  /* Rounded sliders */
+    .slider.roundred {
+        border-radius: 34px;
+        background-color: black;
+    }
+
+    .slider.roundred:before {
+        border-radius: 50%;
+        background-color: orangered;
+        animation: knoprood 2s infinite;
+    }
+
+@keyframe knoprood {
+
+    0% {background-color: red;}
+
+    50% {background-color: yellow;}
+
+    100% {background-color: red;}
+}
+
+/*
+@media screen and (max-width: 30em) {
+    body {
+        background-color: red;
+    }
+
+    section {
+        display: flex;
+        padding-top: 10em;
+        padding-left: 5em;
+        text-align: center;
+    }
+
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 70px;
+        height: 40px;
+    }
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 30px;
+        width: 30px;
+        left: 5px;
+        right: 5px;
+        bottom: 5px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+}
+*/
+
+@media screen and (min-width: 60em) {
+
+    body {
+        background-color: black;
+    }
+
+    p {
+        font-size: 10em;
+        transition: 0.5s;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        margin-left: 20em;
+        transition: 5s;
+    }
+
+    article {
+        animation: spin 2s;
+    }
+
+    @keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+}
+
+@media screen and (min-width: 90em) {
+    article {
+        animation: spin 2s;
+    }
+
+    @keyframes spin {
+    from {transform:rotate(360deg);}
+    to {transform:rotate(0deg);}
+}
+}
+
+
+@media screen and (min-width: 100em) {
+
+    body {
+        background-color: black;
+    }
+
+    p {
+        font-size: 12em;
+        transition: 0.5s;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        margin-top: 0em;
+        margin-left: 30em;
+        transition: 2s;
+    }
+
+
+
+}
