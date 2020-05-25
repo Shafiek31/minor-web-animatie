@@ -53,13 +53,13 @@ week03: Het kunstwerk afmaken. In deze week probeer ik alle feedback van de doce
 ----------------------
 
 Resultaat mobiele/tablet - desktop versie - Scherm is diapositief om duidelijk toe te lichten.
-Op het standaard scherm bewegen de letters om het levendig naar voren te krijgen. Bovenaan de het scherm is er een label aanwezig om de toetsenbord naar voren te krijgen en om de aanwijzingen op te schrijven(keyboard). De keyboard ziet er als volgt uit: Wanneer de gebruiker de eerste vier letters schrijf van één van de twee woorden (mag ook beide woorden) dan komt er een animatie naar voren van de hoofdletters - deze uitgangspunt kom over met het originele kunstwerk. De label komt ook voor bij tablet maar niet bij desktop omdat die al een vaste toetsenbord heeft.
+Op het standaard scherm bewegen de letters om het levendig naar voren te krijgen. Bovenaan het scherm is er een label aanwezig om de toetsenbord naar voren te krijgen en om de aanwijzingen op te schrijven(keyboard). De keyboard ziet er als volgt uit: Wanneer de gebruiker de eerste vier letters schrijft/typt van één van de twee woorden (mag ook beide woorden) dan komt er een animatie naar voren van het kunstwerk - deze uitgangspunt lijkt ongeveer op het originele kunstwerk. Wanneer de gebruiker alle letters schrijft/typt zal de animatie verdwijnen. De label komt ook voor bij tablet maar niet bij desktop omdat die al een vaste toetsenbord heeft.
 
-Onder de label staan vijf buttons/toogles die dienen voor de kleur verandering van de body. De kleur verandering van de toggles komt ook in de letters door de transparantie. Door klikken op de letters veranderen deze in een bepaald kleur. Onderaan de pagina staat er een tekst die bij het kunstwerk horen.
+Onder de label staan vijf buttons/toggles die dienen voor de kleur verandering van de body. De kleur verandering van de toggles komt ook in de letters omdat die transparantie hebben. Door het klikken op de letters veranderen deze in een bepaald kleur. Onderaan de pagina staat er een tekst/alinea van het kunstwerk.
 
 Het kunstwerk heeft animaties tijdens het responsive schuiven van mobile naar desktop toe, en ook andersom. 
 
-Ik heb veel geëxperimenteerd om mezelf meer te verdiepen in CSS en de animaties. Ik heb een experiment gedaan op clip-path, mask, font-variant, blend-mode en vele andere.
+Ik heb veel geëxperimenteerd om mezelf meer te verdiepen in CSS en animaties. Ik heb experimenten gedaan op clip-path, mask, font-variant, blend-mode en vele andere.
 
 <img width="378" alt="Schermafbeelding 2020-05-25 om 9 10 04 AM" src="https://user-images.githubusercontent.com/43640566/82787930-c3156200-9e67-11ea-95f6-67fa28b5976f.png">
 <img width="1659" alt="Schermafbeelding 2020-05-25 om 9 32 13 AM" src="https://user-images.githubusercontent.com/43640566/82789500-ad556c00-9e6a-11ea-9cf5-6dd7073fbdad.png">
