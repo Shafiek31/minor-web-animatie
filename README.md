@@ -57,6 +57,7 @@ Bronvermelding Readme:
 
 Bronvermelding CSS:
 - Bewegende letters: Coyier, C. (2020, 30 april). Animation. Geraadpleegd op 18 mei 2020, van https://css-tricks.com/almanac/properties/a/animation/
+- Writing-mode: Rendle, R. (2016, 14 augustus). Writing-mode. Geraadpleegd op 22 mei 2020, van https://css-tricks.com/almanac/properties/w/writing-mode/
 
 Bronvermelding JS:
 - Klikbare letters: Generate random background color by clicking on link. (2017, 12 oktober). Geraadpleegd op 18 mei 2020, van https://stackoverflow.com/questions/46716945/generate-random-background-color-by-clicking-on-link
