@@ -70,6 +70,9 @@ Bronvermelding Readme:
 - Kunstwerk: AIGA Design Archives. (2020, 6 mei). Geraadpleegd op 6 mei 2020, van https://designarchives.aiga.org/#/entries/%2Bcollections%3A%22Denver%20Art%20Museum%22/_/detail/relevance/asc/4976/7/1707/light-years-poster/1
 - Inhoudelijk: My Visit to the Cooper Hewitt. (2007, 2 december). Geraadpleegd op 8 mei 2020, van https://collection.cooperhewitt.org/users/oliverpattison/visits/snns/90189469/
 
+Bronvermelding HTML
+- tekst/alinea: AIGA Design Archives. (2020, 6 mei). Geraadpleegd op 6 mei 2020, van https://designarchives.aiga.org/#/entries/%2Bcollections%3A%22Denver%20Art%20Museum%22/_/detail/relevance/asc/4976/7/1707/light-years-poster/1
+
 Bronvermelding CSS:
 - Bewegende letters: Coyier, C. (2020, 30 april). Animation. Geraadpleegd op 18 mei 2020, van https://css-tricks.com/almanac/properties/a/animation/
 - Writing-mode: Rendle, R. (2016, 14 augustus). Writing-mode. Geraadpleegd op 22 mei 2020, van https://css-tricks.com/almanac/properties/w/writing-mode/
