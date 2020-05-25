@@ -59,7 +59,7 @@ Onder de label staan vijf buttons/toggles die dienen voor de kleur verandering v
 
 Het kunstwerk heeft animaties tijdens het responsive schuiven van mobile naar desktop toe, en ook andersom. 
 
-Ik heb veel geëxperimenteerd om mezelf meer te verdiepen in CSS en animaties. Ik heb experimenten gedaan op clip-path, mask, font-variant, blend-mode en vele andere.
+Ik heb veel geëxperimenteerd om mezelf meer te verdiepen in CSS en animaties. Ik heb experimenten gedaan op clip-path, mask, font-variant, blend-mode en vele andere. Al deze experimenten kun je terug vinden in de css-code.
 
 <img width="378" alt="Schermafbeelding 2020-05-25 om 9 10 04 AM" src="https://user-images.githubusercontent.com/43640566/82787930-c3156200-9e67-11ea-95f6-67fa28b5976f.png">
 <img width="1659" alt="Schermafbeelding 2020-05-25 om 9 32 13 AM" src="https://user-images.githubusercontent.com/43640566/82789500-ad556c00-9e6a-11ea-9cf5-6dd7073fbdad.png">
