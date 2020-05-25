@@ -448,7 +448,7 @@
     }
 
     .alinea {
-        color: white;
+        color: grey;
         text-transform: lowercase;
         font-weight: 600;
         position: absolute;
@@ -937,7 +937,6 @@
     .alinea:hover {
         cursor: pointer;
         transition: all 4s ease;
-        color: white;
         animation: color03 10s infinite;
     }
 
