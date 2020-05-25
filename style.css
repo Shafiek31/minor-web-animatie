@@ -554,16 +554,14 @@
         background-position: 0 25%;
         text-shadow: 0 0 15px rgba(221, 221, 221, 0.2);
         transition: text-shadow 0.35s linear ease;
-    }
+    } */
 
+/*
     .mask-l-letter:hover {
         text-shadow: 0 0 10px #ddd;
     }
 
     */
-
-
-}
 
 @media screen and (min-width: 30em) {
 
