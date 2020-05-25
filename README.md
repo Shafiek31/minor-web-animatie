@@ -53,7 +53,9 @@ week03: Het kunstwerk afmaken. In deze week probeer ik alle feedback van de doce
 ----------------------
 
 Resultaat mobiele/tablet - desktop versie - Scherm is diapositief om duidelijk toe te lichten.
-Op het standaard scherm bewegen de letters om het levendig naar voren te krijgen. Bovenaan het scherm is er een label aanwezig om de toetsenbord naar voren te krijgen en om de aanwijzingen op te schrijven(keyboard). De keyboard ziet er als volgt uit: Wanneer de gebruiker de eerste vier letters schrijft/typt van één van de twee woorden (mag ook beide woorden) dan komt er een animatie naar voren van het kunstwerk - deze uitgangspunt lijkt ongeveer op het originele kunstwerk. Wanneer de gebruiker alle letters schrijft/typt zal de animatie verdwijnen. De label komt ook voor bij tablet maar niet bij desktop omdat die al een vaste toetsenbord heeft.
+Op het standaard scherm bewegen de letters om het levendig naar voren te krijgen. Het woord "Light" is iets donkerder dan "Years" vanwege duidelijkheid.
+
+Bovenaan het scherm is er een label aanwezig om de toetsenbord naar voren te krijgen en om de aanwijzingen op te schrijven(keyboard). De keyboard ziet er als volgt uit: Wanneer de gebruiker de eerste vier letters schrijft/typt van één van de twee woorden (mag ook beide woorden) dan komt er een animatie naar voren van het kunstwerk - deze uitgangspunt lijkt ongeveer op het originele kunstwerk. Wanneer de gebruiker alle letters schrijft/typt zal de animatie verdwijnen. De label komt ook voor bij tablet maar niet bij desktop omdat die al een vaste toetsenbord heeft.
 
 Onder de label staan vijf buttons/toggles die dienen voor de kleur verandering van de body. De kleur verandering van de toggles komt ook in de letters omdat die transparantie hebben. Door het klikken op de letters veranderen deze in een bepaald kleur. Onderaan de pagina staat er een tekst/alinea van het kunstwerk.
 
