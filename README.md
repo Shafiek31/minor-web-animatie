@@ -67,6 +67,7 @@ Ik heb veel geëxperimenteerd om mezelf meer te verdiepen in CSS en animaties. I
 ------------------------------
 
 Bronvermelding Readme:
+- Bovenstaande screenshots: Eigen bron
 - Kunstwerk: AIGA Design Archives. (2020, 6 mei). Geraadpleegd op 6 mei 2020, van https://designarchives.aiga.org/#/entries/%2Bcollections%3A%22Denver%20Art%20Museum%22/_/detail/relevance/asc/4976/7/1707/light-years-poster/1
 - Inhoudelijk: My Visit to the Cooper Hewitt. (2007, 2 december). Geraadpleegd op 8 mei 2020, van https://collection.cooperhewitt.org/users/oliverpattison/visits/snns/90189469/
 
