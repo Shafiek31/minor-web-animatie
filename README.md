@@ -8,7 +8,9 @@ Web animatie
 Kunstwerk:
 <img width="496" alt="Schermafbeelding 2020-05-23 om 1 47 47 PM" src="https://user-images.githubusercontent.com/43640566/82729928-26828100-9cfc-11ea-860e-5ddd3098cfde.png">
 
-De keuze op het kunstwerk: het leek me een interessante/uitdagende kunstwerk omdat het niet veel heeft in de vormgeving en dat wil ik actiever maken door de interacties. De lettertype en belichtingen vond ik een sterk combinatie omdat het bij elkaar past en ik kan er wel genoeg mee doen. Inhoudelijk gaat het over dat twee lettertypes een sterk effect hebben met elkaar en het uiteindelijk een levendig gevoel geeft door de belichting.
+Inhoudelijk: Het kunstwerk is ontworpen door de grafisch ontwerper Michael Bierut en gemaakt voor Architectural League of New York als zijn opdrachtgever. Michael Bieruit kreeg als opdracht om een poster te maken van de jaarlijkse Beaux Arts Ball in de Architectural League in New York in 1999.
+
+De keuze op het kunstwerk: het leek me een interessante/uitdagende kunstwerk omdat de vormgeving beperkt is en dat wil ik actiever maken door de interacties. De lettertype en belichtingen vond ik een sterk combinatie omdat het bij elkaar past en ik kan er wel genoeg mee doen. Inhoudelijk in de vormgeving gaat het over dat twee lettertypes een sterk effect hebben met elkaar en het uiteindelijk een levendig gevoel geeft door de belichting. Mijn uitgangspunt is experiment op vele levendige interacties/animaties.
 
 Interacties eindopdracht
 - Standaard: De letters gaan van boven naar onder en ook andersom EN/of alle kanten op.
@@ -19,7 +21,7 @@ Interacties eindopdracht
 
 --------------------
 
-Week 01: In deze week heb ik svg bestanden gemaakt om het kunstwerk te animeren. Ik heb deze svg bestanden geplaatst in de editor om deze daadwerkelijk te coderen. Achteraf kwam ik erachter dat het niet nodig was om een svg te maken en deze te coderen omdat ik te maken heb met tekst/typografie. Ik vond het wel fijn om svg te leren kennen om deze daadwerkelijk te coderen, het is een ervaring. Bij het gebruik van tekst/typografie kan ik gebruik maken van paragraph tag.
+Week 01: In deze week heb ik svg bestanden gemaakt om het kunstwerk te animeren. Ik heb deze svg bestanden geplaatst in de editor om deze daadwerkelijk te coderen. Achteraf kwam ik erachter dat het niet nodig was om een svg te maken en deze te coderen omdat ik te maken heb met tekst/typografie. Ik vond het wel fijn om svg te leren kennen om deze te coderen, het is een ervaring. Bij het gebruik van tekst/typografie kan ik gebruik maken van paragraph tag.
 Deze paragraph kan ik voor de letters apart stylen door classes aan toe te voegen.
 
 De eerste week was ik dus gaan onderzoeken/experimenteren wat het beste is om het uiteindelijk te coderen.
@@ -31,15 +33,13 @@ Week02: In de eerste week heb ik bepaald hoe het uiterlijk van de animatie eruit
 Feedback Danny - 13 mei 2020
 De docent keek naar het werk en gaf daar feedback op.
 
-Mijn uitleg: 
-- Dit is het kunstwerk die de gebruiker als eerst zullen zien. De letters bewegen van boven naar beneden om de gebruiker een beetje te triggeren,
-- De gebruiker kan op de letters klikken met als gevolg kleur(verschillende kleuren).
-- Er is ook een darkmode aanwezig. Hierbij worden de dominante kleuren diapositief.
+Uitleg kunstwerk:
+- img 1: In de vormgeving wil ik de hoofd-letters "Light Years" gecentreerd verwerken met Helvetica font omdat die in de richting komt van het kunstwerk. Daarnaast bewegen de letters om meer een levend gevoel te hebben. Boven het kunstwerk staan buttons verwerkt zodat de gebruiker hierop kan klikken. De keuze dat de buttons bovenaan staan is omdat de gebruiker van boven naar beneden leest. De standaard-pagina heeft een zwarte kleur door het kunstwerk. 
+- img 2: De gebruiker kan op de letters klikken zodat er bepaalde kleur naar voren komt. Door de kleuren komt het levendig over. 
+- img 3: De darkmode is aanwezig. Van een dominante kleur gaat het naar diapositief.
 <img width="973" alt="Schermafbeelding 2020-05-17 om 2 49 28 PM" src="https://user-images.githubusercontent.com/43640566/82147131-fe070c80-984d-11ea-9da1-1891d089396b.png">
 
-
 <img width="1006" alt="Schermafbeelding 2020-05-17 om 2 50 57 PM" src="https://user-images.githubusercontent.com/43640566/82147134-02332a00-984e-11ea-9971-60b406527ff5.png">
-
 
 <img width="973" alt="Schermafbeelding 2020-05-17 om 2 49 42 PM" src="https://user-images.githubusercontent.com/43640566/82147133-019a9380-984e-11ea-9f8c-c84e34a53eab.png">
 
@@ -52,8 +52,24 @@ week03: Het kunstwerk afmaken. In deze week probeer ik alle feedback van de doce
 <img width="494" alt="Schermafbeelding 2020-05-23 om 1 38 36 PM" src="https://user-images.githubusercontent.com/43640566/82729946-40bc5f00-9cfc-11ea-8d7b-b9a1df6d2431.png">
 
 -----------------
+
+Resultaat mobiele/tablet - desktop versie
+Op het standaard scherm bewegen de letters om het levendig naar voren te krijgen. Bovenaan de het scherm is er een label aanwezig om de toetsenbord naar voren te krijgen en om de aanwijzingen op te schrijven(keyboard). De keyboard ziet er als volgt uit: Wanneer de gebruiker de eerste vier letters schrijf van één van de twee woorden (mag ook beide woorden) dan komt er een animatie naar voren van de hoofdletters - deze uitgangspunt kom over met het originele kunstwerk. De label komt ook voor bij tablet maar niet bij desktop omdat die al een vaste toetsenbord heeft.
+
+Onder de label staan vijf buttons/toogles die dienen voor de kleur verandering van de body. De kleur verandering van de toggles komt ook in de letters door de transparantie. Door klikken op de letters veranderen deze in een bepaald kleur. Onderaan de pagina staat er een tekst die bij het kunstwerk horen.
+
+Het kunstwerk heeft animaties tijdens het responsive schuiven van mobile naar desktop toe, en ook andersom. 
+
+Ik heb veel geëxperimenteerd om mezelf meer te verdiepen in CSS en de animaties. Ik heb een experiment gedaan op clip-path, mask, font-variant, blend-mode en vele andere.
+
+<img width="378" alt="Schermafbeelding 2020-05-25 om 9 10 04 AM" src="https://user-images.githubusercontent.com/43640566/82787930-c3156200-9e67-11ea-95f6-67fa28b5976f.png">
+
+<img width="1680" alt="Schermafbeelding 2020-05-25 om 9 10 27 AM" src="https://user-images.githubusercontent.com/43640566/82787907-babd2700-9e67-11ea-8a01-72204bb0ea7d.png">
+
+
 Bronvermelding Readme:
 - Kunstwerk: AIGA Design Archives. (2020, 6 mei). Geraadpleegd op 6 mei 2020, van https://designarchives.aiga.org/#/entries/%2Bcollections%3A%22Denver%20Art%20Museum%22/_/detail/relevance/asc/4976/7/1707/light-years-poster/1
+- Inhoudelijk: My Visit to the Cooper Hewitt. (2007, 2 december). Geraadpleegd op 8 mei 2020, van https://collection.cooperhewitt.org/users/oliverpattison/visits/snns/90189469/
 
 Bronvermelding CSS:
 - Bewegende letters: Coyier, C. (2020, 30 april). Animation. Geraadpleegd op 18 mei 2020, van https://css-tricks.com/almanac/properties/a/animation/
