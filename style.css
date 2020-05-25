@@ -530,10 +530,10 @@
 
 
 
-    /* Experiment: Background voor de mask */
-    /* Er kan ook eventueel gebruik gemaakt worden van een img in de background */
+/* Experiment: Background voor de mask */
+/* Er kan ook eventueel gebruik gemaakt worden van een img in de background */
 
-    /*
+/*
 
     .masking {
         cursor: pointer;
@@ -546,17 +546,16 @@
 
     */
 
-    /* Variaties in de mask */
+/* Variaties in de mask */
 
-    /*
+/*
     .mask-l-letter {
         color: transparent;
         background-position: 0 25%;
         text-shadow: 0 0 15px rgba(221, 221, 221, 0.2);
         transition: text-shadow 0.35s linear ease;
-    } */
+    }
 
-/*
     .mask-l-letter:hover {
         text-shadow: 0 0 10px #ddd;
     }
